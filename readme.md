@@ -7,3 +7,7 @@
 # Build Guide
 
 to be prepared
+
+# License
+
+Released under the MIT license. see [LICENSE](https://github.com/Pekaso/fortitude60/blob/master/LICENSE)

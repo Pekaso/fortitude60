@@ -6,7 +6,8 @@
 
 # Build Guide
 
-to be prepared
+## Fortitude60 v1.0(C94 Limited Edition)
+[ビルドガイド（日本語）](Documents/buildguide_jp_v1.0.md)
 
 # License
 

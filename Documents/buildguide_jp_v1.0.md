@@ -60,7 +60,7 @@
 基板を写真のように並べ左手側と右手側を決めます。以降の説明ではキースイッチを取り付ける面をスイッチ面、ダイオードを取り付ける面を部品面とします。
 
 ### (細かい部品の実装箇所)
-![Imgur](https://i.imgur.com/QOcRslZ.jpg)
+![Imgur](https://i.imgur.com/p3cmwDP.jpg)
 オプションのLEDを含んだ図。反対側も同じです。
 
 ### ダイオードの取り付け
@@ -150,7 +150,14 @@ MCUはシールが貼ってあるものが左手側となり、基板上のシ�
 
 ### Underglow用LEDテープの取り付け（オプション）
 
-Underglowを追加する場合は、基板上にある「LED」の部分を基準に写真のように配線していきます。(準備中)
+![LEDテープ配線（左手側）](https://i.imgur.com/1mjnhY7.png)
+
+![LEDテープ配線（左手側）](https://i.imgur.com/pAOH0FI.png)
+
+Underglowを追加する場合は、”左手側の”基板上にある「LED」の部分を基準に写真のように配線していきます。
+
+Underglowを使用する場合は左右で「EXTRA DATA」を通じて通信するため、必ず4極あるTRRSケーブルを使用してください。
+
 
 ### ケースの組み立て
 
@@ -186,11 +193,11 @@ QMKのビルド環境の構築などは公式ドキュメント[docs.qmk.fm](htt
 
 Underglow機能と両立はできません。
 
-### Underglow機能の有効化(準備中)
+### Underglow機能の有効化
 
 ```/keymaps/[your keymap]/rules.mk```の```RGBLIGHT_ENABLE = yes```を追加します。
 
-Backlight機能と両立はできません。
+Backlight機能と両立はできません。また必ず取り付けたLEDテープの数を``/keymaps/config.h``の`RGBLED_NUM`に記述します。
 
 # テスト用ファームのキーマップ
 
@@ -202,4 +209,4 @@ Backlight機能と両立はできません。
 ## Adjustレイヤー（LOWER+RAISE)
 ![Adjust](https://i.imgur.com/SxD5wZX.png)
 
-「LOWER」と「RAISE」を同時押しするとキーボードの設定を変えられるAdjustmentレイヤーになります（押している間のみ）。上から2段めの「RGB Toggle」より右側はUnderglowの制御用キーです。上から3段目の「BL Toggle」及び「BL Step」はそれぞれBacklightのオン/オフと輝度を変えることができます。Resetはキーボードのすべての設定を初期化して再起動します。
+「LOWER」と「RAISE」を同時押しするとキーボードの設定を変えられるAdjustmentレイヤーになります（押している間のみ）。上から2段めの「RGB Toggle」より右側はUnderglowの制御用キーです。上から3段目の「BL Toggle」及び「BL Step」はそれぞれBacklightのオン/オフと輝度を変えることができます。

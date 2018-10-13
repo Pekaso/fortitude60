@@ -9,6 +9,9 @@
 ## Fortitude60 v1.0(C94 Limited Edition)
 [ビルドガイド（日本語）](Documents/buildguide_jp_v1.0.md)
 
+## F.A.Q
+[よくある質問（日本語）](Documents/faq_jp.md)
+
 # License
 
 Released under the MIT license. see [LICENSE](https://github.com/Pekaso/fortitude60/blob/master/LICENSE)

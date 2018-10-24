@@ -23,6 +23,7 @@
 |------|----|----|----|
 |キースイッチ|Cherry MX系|60個|PCBマウント対応|
 |キーキャップ|Cherry MX系|60個|PCBマウント対応|
+|USBケーブル|Type-C対応|1個|Type-C to Type-Cケーブル仕様時は別途抵抗が必要となります。|
 
 [^underglow]: Underglow機能など。Backlight機能とUnderglow機能はMCUの仕様上排他となります。
 
@@ -35,6 +36,7 @@
 |LED|3mm砲弾型(Vf=1.4V, 8mA)|60個|Backlight機能|
 |抵抗|470ohm, リードまたは3216|60個|Backlight機能|
 |抵抗|1kohm, リードまたは3216|2個|Backlight機能|
+|抵抗|1kohm, リード|2個|USB Type-C to Type-Cケーブル仕様時|
 |FET|IRLML6344TRPbF(Nch MOSFET)|2個|Backlight機能|
 |------|----|----|----|
 |テープLED|WS2812B(フルカラーLED)|2本|Underglow機能|
@@ -102,7 +104,7 @@ TRRSケーブルを接続し、それぞれの対称のピンが導通してい�
 ### ピンヘッダの取り付け
 
 ![MCUピンヘッダ](https://i.imgur.com/oPl7QHQ.jpg)
-![MCUピンヘッダはんだ付け](https://i.imgur.com/c0q57L4.jpg) 
+![MCUピンヘッダはんだ付け](https://i.imgur.com/c0q57L4.jpg)
 ![USBピンヘッダ](https://i.imgur.com/N8x93Hu.jpg)
 
 MCU（コントローラー）とUSBコネクタを取り付けるピンヘッダを取り付けます。ピン数に合わせてピンヘッダを切断し、部品面に取り付けスイッチ面からはんだ付けします。片手のPCBにはMCUへは6ピンを3つ、USBコネクタには2ピンを2つずつはんだ付けします。
@@ -125,6 +127,10 @@ MCU（コントローラー）とUSBコネクタを取り付けるピンヘッ�
 
 MCUはテスト用のファームウェアが書き込み済みであり、写真のようにシールが貼られている方が左手側のMCUとなります。
 
+### USB-Type Cで使用する場合
+MacBookなど最近のノートPCではType-Cコネクタのみのものが増えています。そんなPCでFortitude60を使いたい場合には、USB Type-Cコネクタ側にデバイスであることをPCに通知するためにCC1とCC2ピンを5.1kΩ抵抗でプルダウンしてください。
+
+### USBコネクタとMCUの接続
 ![リード線の加工](https://i.imgur.com/TmkKmtx.jpg)  
 ![USBtoMCU](https://i.imgur.com/1KG1w1b.jpg)
 

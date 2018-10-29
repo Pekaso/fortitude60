@@ -36,7 +36,7 @@
 |LED|3mm砲弾型(Vf=1.4V, 8mA)|60個|Backlight機能|
 |抵抗|470ohm, リードまたは3216|60個|Backlight機能|
 |抵抗|1kohm, リードまたは3216|2個|Backlight機能|
-|抵抗|1kohm, リード|2個|USB Type-C to Type-Cケーブル仕様時|
+|抵抗|5.1kohm, リード|2個|USB Type-C to Type-Cケーブル仕様時|
 |FET|IRLML6344TRPbF(Nch MOSFET)|2個|Backlight機能|
 |------|----|----|----|
 |テープLED|WS2812B(フルカラーLED)|2本|Underglow機能|

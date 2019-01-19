@@ -187,13 +187,13 @@ QMKのビルド環境の構築などは公式ドキュメント[docs.qmk.fm](htt
 
 ### Backlight機能の有効化
 
-テスト用ファームで有効になっています。
-
 ```/keymaps/[your keymap]/rules.mk```に```BACKLIGHT_ENABLE = yes```を追加します。
 
 Underglow機能と両立はできません。
 
 ### Underglow機能の有効化
+
+テスト用ファームで有効になっています。
 
 ```/keymaps/[your keymap]/rules.mk```の```RGBLIGHT_ENABLE = yes```を追加します。
 

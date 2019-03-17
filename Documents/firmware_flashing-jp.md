@@ -17,10 +17,10 @@ EEPROMに書き込むファイルは以下のディレクトリにあります�
 MCU上のリセット（RST）ピンとGNDピンをピンセットなどでショート（隣に5Vがあるので注意！）させLEDが明滅している間に以下のコマンドを実行  
 
 左手の例:   
-``avrdude -c avr109 -p m32u4 -P /dev/ttyS1 -U  eprom:w:"./quantum/split_common/eeprom-lefthand.eep``
+``avrdude -c avr109 -p m32u4 -P /dev/ttyS1 -U  eeprom:w:"./quantum/split_common/eeprom-lefthand.eep"``
 
 左手の例:   
-``avrdude -c avr109 -p m32u4 -P /dev/ttyS1 -U  eprom:w:"./quantum/split_common/eeprom-righthand.eep``
+``avrdude -c avr109 -p m32u4 -P /dev/ttyS1 -U  eeprom:w:"./quantum/split_common/eeprom-righthand.eep"``
 
 ``/dev/tty*``はリセットさせた際に出現するものに各自置き換えてください。
 

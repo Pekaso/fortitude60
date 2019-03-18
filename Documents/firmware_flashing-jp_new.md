@@ -6,10 +6,13 @@
 以下はPCにQMK Firmwareのビルド環境及びAVRDUDEなどの書き込みツールが利用できるようになっていることを前提としています。
 
 ### 書き込み方法(Linux, macOS, Msys2 on Windows)
-通常のQMK Firmwareと同様に、qmk_firmware直下のディレクトリへ移動し、以下のコマンドを実行してください。途中で``Detecting USB port, reset your controller now........``という表示が出たら、MCU上のリセット（RST）ピンとGNDピンをピンセットなどでショート（隣に5Vがあるので注意！）させMCUを書き込みモードにします。``avrdude.exe done.  Thank you.``がでて正常に終了すれば完了です。
-
-左手側の書き込み: ``make fortitude60/rev1:default:avrdude-split-left``
+1. 通常のQMK Firmwareと同様に、qmk_firmware直下のディレクトリへ移動し、以下のコマンドを実行してください。  
+左手側の書き込み: ``make fortitude60/rev1:default:avrdude-split-left``  
 右手側の書き込み: ``make fortitude60/rev1:default:avrdude-split-right``
+
+1. 途中で``Detecting USB port, reset your controller now........``という表示が出たら、MCU上のリセット（RST）ピンとGNDピンをピンセットなどでショート（隣に5Vがあるので注意！）させMCUを書き込みモードにします。
+
+2. ``avrdude.exe done.  Thank you.``がでて正常に終了すれば完了です。
 
 左手側を書き込んだあと、Windows10であれば[Windowsの設定]-[デバイス]の中の[Bluetoothとその他デバイス]欄に``The Fortitude60 Keyboard``というデバイスが認識されていれば成功です。
 

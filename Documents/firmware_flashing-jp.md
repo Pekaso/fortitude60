@@ -1,4 +1,4 @@
-# Fortitude60 ファームウェア書き込み方法
+# Fortitude60 ファームウェア書き込み方法（旧版）
 MCUを単体で新規購入したり、訳あって再度書き込みしたい場合の手順です。
 キット付属品、キーマップ更新などの単純な書き込み時には不要です。通常通りの書き込みを行ってください。
 
@@ -17,10 +17,10 @@ EEPROMに書き込むファイルは以下のディレクトリにあります�
 MCU上のリセット（RST）ピンとGNDピンをピンセットなどでショート（隣に5Vがあるので注意！）させLEDが明滅している間に以下のコマンドを実行  
 
 左手の例:   
-``avrdude -c avr109 -p m32u4 -P /dev/ttyS1 -U  eprom:w:"./quantum/split_common/eeprom-lefthand.eep``
+``avrdude -c avr109 -p m32u4 -P /dev/ttyS1 -U  eeprom:w:"./quantum/split_common/eeprom-lefthand.eep``
 
 左手の例:   
-``avrdude -c avr109 -p m32u4 -P /dev/ttyS1 -U  eprom:w:"./quantum/split_common/eeprom-righthand.eep``
+``avrdude -c avr109 -p m32u4 -P /dev/ttyS1 -U  eeprom:w:"./quantum/split_common/eeprom-righthand.eep``
 
 ``/dev/tty*``はリセットさせた際に出現するものに各自置き換えてください。
 

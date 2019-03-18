@@ -18,7 +18,7 @@
 右手側を書き込んだあと、**デバイスとして何も認識されない**のが正しい挙動になります。
 
 ### 書き込み方法(Windows GUI)
-[firmware_flashing-jp.md#書き込み方法windows](/firmware_flashing-jp.md#書き込み方法windows) を参照してください。
+[firmware_flashing-jp.md#書き込み方法windows](/Documents/firmware_flashing-jp.md#書き込み方法windows) を参照してください。
 
 ## 通常のファームウェアの書き込み（2回目以降）
 2回目以降のファームウェアの書き換えは他のキーボードと同様に書き込んでください。

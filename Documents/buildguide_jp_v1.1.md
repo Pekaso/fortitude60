@@ -41,7 +41,7 @@
 ## ファームウェアの書き込み
 初回販売分を除き、MCUには **ファームウェアが書き込まれていません。** 以下の説明に従って各自書き込みを行ってください。
 
-[Fortitude60　ファームウェア書き込み方法](/firmware_flashing-jp_new.md)
+[Fortitude60　ファームウェア書き込み方法](/Documents/firmware_flashing-jp_new.md)
 
 ## 組み立て
 
@@ -146,7 +146,7 @@ MCUはシールが貼ってあるものが左手側となり、基板上のシ�
 お疲れ様でした。
 
 # Backlight, Underglow機能の追加
-Fortitude60はBacklightまたはUnderglow機能を追加することができます。改造するために必要な部品や改造方法は [Fortitude60 v1.0（C94 Limited Edition) ビルドガイド](/buildguide_jp_v1.0.md)を参照してください。
+Fortitude60はBacklightまたはUnderglow機能を追加することができます。改造するために必要な部品や改造方法は [Fortitude60 v1.0（C94 Limited Edition) ビルドガイド](/Documents/buildguide_jp_v1.0.md)を参照してください。
 
 # テスト用ファームのキーマップ
 

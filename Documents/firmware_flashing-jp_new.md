@@ -18,7 +18,8 @@
 
 ![settings](https://i.imgur.com/q4k5N5o.png)
 
-右手側を書き込んだあと、**デバイスとして何も認識されない**のが正しい挙動になります。
+~~右手側を書き込んだあと、**デバイスとして何も認識されない**のが正しい挙動になります。~~  
+(現在のQMK Firmware([d1190df](https://github.com/qmk/qmk_firmware/commit/d1190df10be933c64fee648b41191131313020a2)以降)では右手側もデバイスとして認識されるようになりました。)
 
 ### 書き込み方法(Windows GUI)
 [firmware_flashing-jp.md#書き込み方法windows](/Documents/firmware_flashing-jp.md#書き込み方法windows) を参照してください。

@@ -144,7 +144,7 @@ To learn how to build and customize QMK, please follow the official guide: [docs
 
 2. Customizing the Keymap
 
-Please use the values in  ` ` `/keymaps/default/` ` ` as reference for editing  ` ` `keymap.c` ` `
+Please use the values in  ` ` `keymap.c` ` ` in the ` ` `/keymaps/default/` ` ` folder as reference for editing your own keymap. 
 
 2. Enabling the Backlight Function
 

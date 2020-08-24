@@ -21,6 +21,7 @@
 
 ## F.A.Q
 [よくある質問（日本語）](Documents/faq_jp.md)
+[Frequently Asked Questions（EN）](Documents/faq_en.md)
 
 # License
 

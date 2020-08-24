@@ -19,8 +19,11 @@
 # Firmware Flashing
 [ファームウェア書き込み方法（日本語）](Documents/firmware_flashing-jp_new.md)
 
+[Firmware Flashing（EN）](Documents/firmware_flashing-en_new.md)
+
 ## F.A.Q
 [よくある質問（日本語）](Documents/faq_jp.md)
+
 [Frequently Asked Questions（EN）](Documents/faq_en.md)
 
 # License

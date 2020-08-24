@@ -4,7 +4,7 @@ These steps are requierd to prepare a MCU for the first time, or to reset it bac
 These instructions assume you have the QMK Firmware build environment and a firmware burning application, such as AVRDude, installed on your computer.
 
 ## Burning the EEPROM
-Due to the hardware limitations of the Foritude 60, you must burn seperate EEPROMs for the left-hand and right-hand sides of the keyboard, to help identify the devices. After you have written the EEPROM once, you do not need to do it again every time you update the QMK firmware. 
+Due to the hardware limitations of the Foritude 60, you must burn separate EEPROMs for the left-hand and right-hand sides of the keyboard, to help identify the devices. After you have written the EEPROM once, you do not need to do it again every time you update the QMK firmware. 
 
 You can find the files that you need to write to the EEPROM in the following location:   
 ``/qmk_firmware/quantum/split_common``  

@@ -78,7 +78,7 @@ You can check that you soldered the diodes to the board correctly by using the "
 
 ![TRRS&Switch](https://i.imgur.com/o5jTdhK.jpg)
 
-Align the TRRS jack and tactitle switch with their markings on the Parts Side of the board and apply the solder on the Switch Side.
+Align the TRRS jack and tactile switch with their markings on the Parts Side of the board and apply the solder on the Switch Side.
 
 ![Soldering Location](https://i.imgur.com/hTOVGtO.jpg)
 
@@ -94,7 +94,7 @@ Plug the TRRS cable into the jack and use the "Continuity Test" function on your
 
 ![USB Pin Header](https://i.imgur.com/N8x93Hu.jpg)
 
-The MCU (Microcontroller) and USB Connector will be attached directly to the pin headers. You will need to seperate the pin headers so that each section has enough pins to match the number of holes on each device. You will apply the solder on the Switch Side of the PCB. On each PCB, you will need to solder 3 sets of 6 pins for the MCU, and 2 sets of 2 pins for the USB connector.
+The MCU (Microcontroller) and USB Connector will be attached directly to the pin headers. You will need to separate the pin headers so that each section has enough pins to match the number of holes on each device. You will apply the solder on the Switch Side of the PCB. On each PCB, you will need to solder 3 sets of 6 pins for the MCU, and 2 sets of 2 pins for the USB connector.
 
 `` [Caution] Please do not solder the MCU yet!!! You still have a few more steps to complete first. ``
 
@@ -156,7 +156,7 @@ The acrylic case is designed with tight fittings, in order to increase its stren
 ![Rubber Feet](https://i.imgur.com/mKuVylI.png)
 
 You can now attach the bottom cover of the case. 
-By attaching the rubber feet to the cover, as shown in the picture, you can produce a slight inclination in the keyboard. When you need to disassmble the keyboard, you can do as by inserting a small, dull, pointed object in the gap around the USB connector. This should be one of the easier ways to remove the case.
+By attaching the rubber feet to the cover, as shown in the picture, you can produce a slight inclination in the keyboard. When you need to disassemble the keyboard, you can do as by inserting a small, dull, pointed object in the gap around the USB connector. This should be one of the easier ways to remove the case.
 
 ### Complete
 

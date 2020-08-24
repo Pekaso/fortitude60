@@ -28,7 +28,7 @@ The parts listed below are required to finish building a functioning keyboard, p
 |Keycaps|Cherry MX-compatible|60 pieces|Cherry-stem compatible|
 |USB Cable|Type-C compatible|1 cable|If you plan on using a Type-C to Type-C cable, you will also need to buy a resistor, described later in the guide. |
 
-[^underglow]: Underglow, etc. Backlight and Underglow are treated as seperate functions in the MCU.
+[^underglow]: Underglow, etc. Backlight and Underglow are treated as separate functions in the MCU.
 
 ### Optional Parts (As-needed, based on options you want to use)
 
@@ -94,7 +94,7 @@ Next, you need to attach the FET driver for the LEDs. Since it is a Surface Moun
 
 ![TRRS&Switch](https://i.imgur.com/o5jTdhK.jpg)
 
-Align the TRRS jack and tactitle switch with their markings on the Parts Side of the board and apply the solder on the Switch Side.
+Align the TRRS jack and tactile switch with their markings on the Parts Side of the board and apply the solder on the Switch Side.
 
 On the v1.0 revision of the PC, the footprint is too small, so you will need to mount the part with one of the pins bent. Begin soldering from the bent pin and then verify all of the connections. On the v1.1 revision of the PCB, this problem has been fixed, so you do not need to bend any pins. On the left-hand half of the keyboard, you can find the PCB version on the Switch Side. On the right hand side, you can find it on the bottom left of the Parts Side.
 
@@ -112,7 +112,7 @@ Plug the TRRS cable into the jack and use the "Continuity Test" function on your
 
 ![USB Pin Header](https://i.imgur.com/N8x93Hu.jpg)
 
-The MCU (Microcontroller) and USB Connector will be attached directly to the pin headers. You will need to seperate the pin headers so that each section has enough pins to match the number of holes on each device. You will apply the solder on the Switch Side of the PCB. On each PCB, you will need to solder 3 sets of 6 pins for the MCU, and 2 sets of 2 pins for the USB connector.
+The MCU (Microcontroller) and USB Connector will be attached directly to the pin headers. You will need to separate the pin headers so that each section has enough pins to match the number of holes on each device. You will apply the solder on the Switch Side of the PCB. On each PCB, you will need to solder 3 sets of 6 pins for the MCU, and 2 sets of 2 pins for the USB connector.
 
 ``[Caution] Please do not solder the MCU yet!!! You still have a few more steps to complete first.``
 
@@ -184,7 +184,7 @@ The acrylic case is designed with tight fittings, in order to increase its stren
 ![Rubber Feet](https://i.imgur.com/mKuVylI.png)
 
 You can now attach the bottom cover of the case. 
-By attaching the rubber feet to the cover, as shown in the picture, you can produce a slight inclination in the keyboard. When you need to disassmble the keyboard, you can do as by inserting a small, dull, pointed object in the gap around the USB connector. This should be one of the easier ways to remove the case.
+By attaching the rubber feet to the cover, as shown in the picture, you can produce a slight inclination in the keyboard. When you need to disassemble the keyboard, you can do as by inserting a small, dull, pointed object in the gap around the USB connector. This should be one of the easier ways to remove the case.
 
 ### Complete
 

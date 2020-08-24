@@ -13,7 +13,7 @@ If = (VBUS - Vf)/R
   ≈ 8mA
 ```
 
-When using different types of LEDs, you can use this calcuation and the Vf value of your new LED to help you determine the new resistor value you need to match the current. 
+When using different types of LEDs, you can use this calculation and the Vf value of your new LED to help you determine the new resistor value you need to match the current. 
 
 ### What kind of keyswitches should I use? Those with 3 pins or 5?
 

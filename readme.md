@@ -16,6 +16,8 @@
 
 [Build Guide (EN)](Documents/buildguide_en_v1.1.md)
 
+[Changes](https://github.com/Pekaso/fortitude60/issues/9)
+
 # Firmware Flashing
 [ファームウェア書き込み方法（日本語）](Documents/firmware_flashing-jp_new.md)
 

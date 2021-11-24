@@ -96,7 +96,7 @@ Next, you need to attach the FET driver for the LEDs. Since it is a Surface Moun
 
 Align the TRRS jack and tactile switch with their markings on the Parts Side of the board and apply the solder on the Switch Side.
 
-On the v1.0 revision of the PC, the footprint is too small, so you will need to mount the part with one of the pins bent. Begin soldering from the bent pin and then verify all of the connections. On the v1.1 revision of the PCB, this problem has been fixed, so you do not need to bend any pins. On the left-hand half of the keyboard, you can find the PCB version on the Switch Side. On the right hand side, you can find it on the bottom left of the Parts Side.
+On the v1.0 revision of the PCB, the footprint is too small, so you will need to mount the part with one of the pins bent. Begin soldering from the bent pin and then verify all of the connections. On the v1.1 revision of the PCB, this problem has been fixed, so you do not need to bend any pins. On the left-hand half of the keyboard, you can find the PCB version on the Switch Side. On the right hand side, you can find it on the bottom left of the Parts Side.
 
 ![Bending the TRRS Pins](https://i.imgur.com/R4nxaFw.jpg)
 
